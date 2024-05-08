@@ -6,8 +6,7 @@ class Texp < Formula
   license "GPL-3.0-or-later"
 
   def install
-    system "./configure", "--disable-silent-rules", *std_configure_args
-    system "make", "install"
+    bin.install "texp"
   end
 
   test do
