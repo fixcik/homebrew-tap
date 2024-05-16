@@ -1,8 +1,8 @@
 class Texp < Formula
   desc "Small tool for render templates"
   homepage "https://github.com/fixcik/texp"
-  url "https://github.com/fixcik/texp/releases/download/v0.2.4/texp-x86_64-apple-darwin.tar.gz"
-  sha256 "91b7900f8a10c71e753a795925875d9e1840c046215d926b1d0ee1cb661e491b"
+  url "https://github.com/fixcik/texp/releases/download/v0.2.5/texp-x86_64-apple-darwin.tar.gz"
+  sha256 "056984454b07c0642b1c9b064ba842bef09707bf92a5f744616951e05bf64d2d"
   license "GPL-3.0-or-later"
 
   def install
